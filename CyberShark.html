@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyber Shark</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Cyber Shark</h1>
+      <p>Enter the URL :</p>
+      <input type="text" id="url" placeholder="https://example.com"/>
+      <button onclick="toggleAccordion()" id="showLabelButton">Verify</button><br>
+    </div>
+    <label id="mylabel"></label>
+    <ul class="accordion hide" id="accordion1">
+      <li>
+        <input type="radio" name="accordion" id="first" clicked>
+        <label for="first"><b>✅ SSL certificate Verified </b></label>
+        <div class="content">
+          <h2>The SSL certificate for https://www.amazon.in/ is issued by =DigiCert Global CA G2.</h2>
+          <p>Issuer information: </p>
+          <p>CN=DigiCert Global CA G2, O=DigiCert Inc, C=US</p>
+          <p>Issued on: Wed Oct 19 05:30:00 IST 2022</p>
+          <p>Expires on: Thu Oct 19 05:29:59 IST 2023</p>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="accordion hide" id="accordion2">
+      <li>
+        <input type="radio" name="accordion" id="Second" clicked>
+        <label for="Second"><b>✅ Legitimacy Verified </b></label>
+        <div class="content">
+          <h2><b>The Website has Good Reputation</b></h2>
+          <h2><b>The Website has Good User Reviews and Feedbacks</b></h2>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="accordion hide" id="accordion3">
+      <li>
+        <input type="radio" name="accordion" id="Third" clicked>
+        <label for="Third"><b>✅ Source Verified </b></label>
+        <div class="content">
+          <h2>The server hosting the website is found to be trustworthy.</h2>
+        </div>
+      </li>
+    </ul>
+
+    <label for="Fourth"><b>The Website is Safe to Browse.</b></label>
+
+    <script>
+      function toggleAccordion() {  
+        
+        
+        const accordion1 = document.getElementById('accordion1');
+        const accordion2 = document.getElementById('accordion2');
+        const accordion3 = document.getElementById('accordion3');
+        accordion1.classList.toggle('hide');
+        accordion2.classList.toggle('hide');
+        accordion3.classList.toggle('hide');
+      }
+      
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+  </body>
+</html>

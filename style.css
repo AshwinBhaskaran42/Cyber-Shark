@@ -1,0 +1,142 @@
+        h1 
+        {
+          font-size: 36px;
+          color: blueviolet;
+          margin: 10px;
+          margin-bottom: 10px;
+          margin-left: 780px;
+        }
+        p
+        {
+          font-size: 25px;
+          color:black;
+          margin: 10px;
+          margin-bottom: 10px;
+          margin-left: 600px;
+        }
+        body 
+        {
+          background-color: whitesmoke;
+        }
+        input[type="text"] 
+        {
+          padding: 10px;
+          margin: 10px;
+          align-items: center;
+          border-radius: 25px;
+          border: none;
+          width: 350px;
+          margin-left: 600px;
+          box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+          font-size: 1.2em;
+        }
+        label 
+        {
+          width: 100px;
+          display: inline-block;
+          font-size: 24px;
+          font-weight: bold;
+          align-items: center;
+          margin: 10px;
+          margin-bottom: 10px;
+          margin-left: 500px;
+        }
+        button 
+        {
+          background-color: mediumslateblue;
+          color: white;
+          margin: 10px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          align-items: center;
+          margin-left: 130px;
+          border: none;
+          cursor: pointer;
+          font-size: 20px;
+        }
+        button:hover 
+        {
+          background-color: blue;
+        }
+        .accordion{
+          margin: 5px auto;
+          width:600px;
+          align-items: left;
+
+        }
+        .accordion li{
+          list-style: none;
+          width: 100%;
+          margin: 20px;
+          padding: 10px;
+          border-radius: 8px;
+          background: #e3edf7;
+          box-shadow: 5px 5px 8px -1px rgba(0,0,0,0.15) -5px -5px -8px -1px rgba(255, 255, 255, .7);
+        }
+        .accordion li label{
+          display:flex;
+          align-items:center;
+          margin-left: 10px;
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 300;
+          cursor: pointer;
+        }
+
+        label[for="first"] {
+          white-space: nowrap;
+        }
+        label[for="Second"] {
+          white-space: nowrap;
+        }
+        label[for="Third"] {
+          white-space: nowrap;
+        }
+        label[for="Fourth"] {
+          white-space: nowrap;
+          margin-left: 720px;
+          font-size: 24px;
+          font-family: 'Times New Roman', Times, serif;
+          color: #0BDA51;
+        }
+                
+        
+        .accordion .content h2{
+          font-size: 20px;
+        }
+        .accordion .content p{
+          margin-left:20px;
+          font-size: 20px;
+        }
+
+        .accordion li label::before{
+          content:'+';
+          margin-right: 10px;
+          font-size: 24px;
+          font-weight:600;
+          display: inline;
+        }
+
+        input[type="radio"]{
+          display:none;
+        }
+
+        .accordion .content{
+          color: #555;
+          padding: 0 10px;
+          line-height: 26px;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.5s, padding 0.5s;
+        }
+        
+        .accordion input[type="radio"]:checked + label + .content{
+          max-height: 400px;
+          padding: 10px 10px 20px;
+
+        }
+
+        .accordion input[type="radio"]:checked + label::before{
+          content: '-';
+
+        }
