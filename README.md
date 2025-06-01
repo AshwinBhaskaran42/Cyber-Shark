@@ -5,7 +5,7 @@ Implemented rigorous security checks, validating SSL certification and assessing
 Contributed to online security by addressing phishing threats through innovative solutions.
 
 Credits:
-        Meher Sarana
+        Meher Sarana,
         Ashwin Bhaskaran
 
 # Working Of Project
