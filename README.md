@@ -1,6 +1,6 @@
 # Cyber-Shark
 Originated as a response to the Yukti Innovation Challenge 2023 by the Ministry of Education.
-Developed Cyber Shark, an advanced Phishing Tool for comprehensive website legitimacy evaluation.
+Developed Cyber Shark, an advanced Anti-Phishing Tool for comprehensive website legitimacy evaluation.
 Implemented rigorous security checks, validating SSL certification and assessing certificate issuer credibility.
 Contributed to online security by addressing phishing threats through innovative solutions.
 
